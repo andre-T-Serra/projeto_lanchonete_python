@@ -26,7 +26,7 @@ total = []
 while True:
     while True:
         sleep(0.3)
-        opcao = float(input('Escolha a sua opção de Lanche:'))
+        opcao = int(input('Escolha a sua opção de Lanche:'))
         if opcao > 4:
             sleep(0.3)
             print('opção inválida, favor digitar novamente:')
@@ -77,7 +77,7 @@ total_a = []
 while True:
     while True:
         sleep(0.3)
-        opcao = float(input('Escolha a opção seu acompanhamento:'))
+        opcao = int(input('Escolha a opção seu acompanhamento:'))
         if opcao > 4:
             sleep(0.3)
             print('opção inválida, favor digitar novamente:')
@@ -123,7 +123,7 @@ total_b = []
 while True:
     while True:
         sleep(0.3)
-        opcao = float(input('Escolha a opção sua bebida:'))
+        opcao = int(input('Escolha a opção sua bebida:'))
         if opcao > 5:
             sleep(0.3)
             print('opção inválida, favor digitar novamente:')
@@ -172,7 +172,7 @@ total_c = []
 while True:
     while True:
         sleep(0.3)
-        opcao = float(input('Escolha a opção sua sobremesa:'))
+        opcao = int(input('Escolha a opção sua sobremesa:'))
         if opcao > 4:
             sleep(0.3)
             print('opção inválida, favor digitar novamente:')
@@ -218,7 +218,7 @@ total_d = []
 while True:
     while True:
         sleep(0.3)
-        opcao = float(input('Escolha a opção seu molho favorito:'))
+        opcao = int(input('Escolha a opção seu molho favorito:'))
         if opcao > 4:
             sleep(0.3)
             print('opção inválida, favor digitar novamente:')
